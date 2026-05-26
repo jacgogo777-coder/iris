@@ -60,7 +60,7 @@ if len(columns) >= 2:
 
     # 根據使用者的選擇，動態調整滑桿的標題與點大小的設定
     if size_axis != "固定大小":
-        point_size = st.slider("調整點的最大尺寸 (Max Size)", min_value=5, max_value=50, value=15)
+        point_size = st.slider("調整點的最大尺寸 (Max Size)", min_value=5, max_value=20, value=15)
         size_col = size_axis
         size_max_val = point_size
     else:
